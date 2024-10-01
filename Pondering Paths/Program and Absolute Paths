@@ -1,7 +1,7 @@
 # Program and Absolute Paths
 
 ## Procedure
-I started Intro to Commands challenge.
+I started Program and absolute paths.
 I went to Ubuntu terminal and typed `ssh -i ./key hacker@dojo.pwn.college`
 It connected ubuntu to pwn.college with ssh
 Then i typed `/challenge/run`
