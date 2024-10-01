@@ -2,7 +2,7 @@
 # The Root
 
 ## Procedure
-I started Intro to Commands challenge.
+I started The Root.
 I went to Ubuntu terminal and typed `ssh -i ./key hacker@dojo.pwn.college`
 It connected ubuntu to pwn.college with ssh
 Then i typed `/pwn`
