@@ -1,0 +1,37 @@
+# implicit relative paths
+
+## Procedure
+I started implicit relative paths.
+I went to Ubuntu terminal and typed `ssh -i ./key hacker@dojo.pwn.college`
+It connected ubuntu to pwn.college with ssh
+Then i typed `/challenge/run`
+i got incorrect 
+so i use `pwd` to print working directory
+and to go back to / directory i used using `cd ..` twice 
+and then i  typed `challenge/run`
+and got the flag `pwn.college{EPdhBzrih3XShsKDgNHR8KdABbJ.ddDN1QDL3kTN0czW}`
+
+## bash
+`Connected!
+hacker@paths~implicit-relative-paths-from-:~$ /challenge/run
+Incorrect...
+You are not currently in the / directory.
+Please use the `cd` utility to change directory appropriately.
+hacker@paths~implicit-relative-paths-from-:~$ pwd
+/home/hacker
+hacker@paths~implicit-relative-paths-from-:~$ cd ..
+hacker@paths~implicit-relative-paths-from-:/home$ ls
+hacker
+hacker@paths~implicit-relative-paths-from-:/home$ cd ..
+hacker@paths~implicit-relative-paths-from-:/$ cd ..
+hacker@paths~implicit-relative-paths-from-:/$ /challenge/run
+Incorrect...
+You invoked this challenge with an absolute path. This challenge needs a relative path!
+hacker@paths~implicit-relative-paths-from-:/$ challenge/run
+Correct!!!
+challenge/run is a relative path, invoked from the right directory!
+Here is your flag:
+pwn.college{wSuxRSIJBF7Z5NU8MzEkAPdADEW.dlDN1QDL3kTN0czW}`
+
+## Reference
+used google
