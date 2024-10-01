@@ -7,19 +7,19 @@ It connected ubuntu to pwn.college with ssh
 Then i typed `/challenge/run`
 i got incorrect 
 and it was in a differnet directory
-so to change directory i typed `cd /usr/aarch64-linux-gnu/include/gnu`
+so to change directory i typed `cd /proc/85`
 and then i  typed `/challenge/run`
-and got the flag `pwn.college{EPdhBzrih3XShsKDgNHR8KdABbJ.ddDN1QDL3kTN0czW}`
+and got the flag `pwn.college{YZMatHpCGKepRjWcF8SGWtse5Y3.dhDN1QDL3kTN0czW}`
 
 ## bash
 `Connected!
-hacker@paths~position-elsewhere:~$ /challenge/run
+hacker@paths~position-yet-elsewhere:~$  /challenge/run
 Incorrect...
-You are not currently in the /usr/aarch64-linux-gnu/include/gnu directory.
+You are not currently in the /proc/85 directory.
 Please use the `cd` utility to change directory appropriately.
-hacker@paths~position-elsewhere:~$ cd /usr/aarch64-linux-gnu/include/gnu
-hacker@paths~position-elsewhere:/usr/aarch64-linux-gnu/include/gnu$ /challenge/run
+hacker@paths~position-yet-elsewhere:~$ cd /proc/85
+hacker@paths~position-yet-elsewhere:/proc/85$ /challenge/run
 Correct!!!
 /challenge/run is an absolute path, invoked from the right directory!
 Here is your flag:
-pwn.college{EPdhBzrih3XShsKDgNHR8KdABbJ.ddDN1QDL3kTN0czW}`
+pwn.college{YZMatHpCGKepRjWcF8SGWtse5Y3.dhDN1QDL3kTN0czW}`
