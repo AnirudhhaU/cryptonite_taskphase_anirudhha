@@ -1,6 +1,5 @@
-hacker@commands~catting-absolute-paths:~$ cat /flag
-pwn.college{cmlMO9rXRRhnfUyG_VQcPy6CUc-.dlTM5QDL3kTN0czW}
-# The Root
+
+# Catting absolute paths
 
 ## Procedure
 I started catting absolute paths and after connecting to pwn college through ssh
