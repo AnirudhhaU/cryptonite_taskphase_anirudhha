@@ -2,7 +2,7 @@
 # Removing files
 
 ## Procedure
-I started Removign files and after connecting to pwn college through ssh
+I started Removing files and after connecting to pwn college through ssh
 Then i typed `ls`
 then to delete file i typed `rm delete_me`
 and the i typed `/challenge/check`
