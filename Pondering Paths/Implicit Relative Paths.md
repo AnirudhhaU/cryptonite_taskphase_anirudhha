@@ -8,25 +8,18 @@ Then i typed `/challenge/run`
 i got incorrect 
 so i use `pwd` to print working directory
 and to go back to / directory i used using `cd ..` twice 
-and then i  typed `./challenge/run`
-and got the flag `pwn.college{kvm5rmHiO6SeEKEEyQGN7rXTKyM.dBTN1QDL3kTN0czW}`
+and then i  typed `challenge/run`
+and got the flag `pwn.college{wSuxRSIJBF7Z5NU8MzEkAPdADEW.dlDN1QDL3kTN0czW}`
 
 ## bash
 `Connected!
-hacker@paths~explicit-relative-paths-from-:~$ ./challenge/run
-ssh-entrypoint: ./challenge/run: No such file or directory
-hacker@paths~explicit-relative-paths-from-:~$ pwd
-/home/hacker
-hacker@paths~explicit-relative-paths-from-:~$ cd ..
-hacker@paths~explicit-relative-paths-from-:/home$ cd ..
-hacker@paths~explicit-relative-paths-from-:/$ cd ..
-hacker@paths~explicit-relative-paths-from-:/$ ./challenges/run
-ssh-entrypoint: ./challenges/run: No such file or directory
-hacker@paths~explicit-relative-paths-from-:/$ ./challenge/run
+hacker@paths~implicit-relative-paths-from-:~$ cd /
+hacker@paths~implicit-relative-paths-from-:/$ challenge/run
 Correct!!!
-./challenge/run is a relative path, invoked from the right directory!
+challenge/run is a relative path, invoked from the right directory!
 Here is your flag:
-pwn.college{kvm5rmHiO6SeEKEEyQGN7rXTKyM.dBTN1QDL3kTN0czW}`
+pwn.college{wSuxRSIJBF7Z5NU8MzEkAPdADEW.dlDN1QDL3kTN0czW}
+hacker@paths~implicit-relative-paths-from-:/$`
 
 ## Reference
 did on my own
