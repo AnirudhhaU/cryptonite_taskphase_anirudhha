@@ -1,4 +1,4 @@
-# The Root
+# Cat
 
 ## Procedure
 I started cat and after connecting to pwn college through ssh
