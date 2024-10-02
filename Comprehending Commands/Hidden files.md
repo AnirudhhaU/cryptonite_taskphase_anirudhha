@@ -10,14 +10,15 @@ and got the flag `pwn.college{gQWT6aAVhDngLkN39cNhJSmcZdu.dZTOwUDL3kTN0czW}`
 
 ## bash
 `Connected!
-hacker@commands~removing-files:~$ ls
-a  delete_me  flag  h
-hacker@commands~removing-files:~$ rm delete_me
-hacker@commands~removing-files:~$ ls
-a  flag  h
-hacker@commands~removing-files:~$ /challenge/check
-Excellent removal. Here is your reward:
-pwn.college{gQWT6aAVhDngLkN39cNhJSmcZdu.dZTOwUDL3kTN0czW}`
+hacker@commands~hidden-files:~$ cd /
+hacker@commands~hidden-files:/$ ls
+bin   challenge  etc   lib    lib64   media  nix  proc  run   srv  tmp  var
+boot  dev        home  lib32  libx32  mnt    opt  root  sbin  sys  usr
+hacker@commands~hidden-files:/$ ls -a
+.   .dockerenv             bin   challenge  etc   lib    lib64   media  nix  proc  run   srv  tmp  var
+..  .flag-253112264625024  boot  dev        home  lib32  libx32  mnt    opt  root  sbin  sys  usr
+hacker@commands~hidden-files:/$ grep pwn.college .flag-253112264625024
+pwn.college{YfiqGxr_2ZHK29zHFWNDhf3RfQl.dBTN4QDL3kTN0czW}`
 
 ## Reference
 did on my own
