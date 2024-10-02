@@ -4,9 +4,27 @@
 ## Procedure
 I started An Epic Filesystem Quest and after connecting to pwn college through ssh
 Then i typed `cd /` to go to / directory
-Then i typed `ls -a` and
-then to find flag in file i typed `grep pwn.college .flag-253112264625024`
-and got the flag `wn.college{YfiqGxr_2ZHK29zHFWNDhf3RfQl.dBTN4QDL3kTN0czW}`
+Then i typed `ls ` and
+then i typed `cat MEMO` and got first clue 
+then i typed `cd /usr/share/javascript/mathjax/unpacked/localization/en` to change directory
+then i typed `ls`
+then i typed `cat BRIEF` and got next clue
+then i typed `ls /usr/share/javascript/mathjax/unpacked/jax/output/SVG/fonts/Neo-Euler/Size4/Regular`
+then i typed `cat /usr/share/javascript/mathjax/unpacked/jax/output/SVG/fonts/Neo-Euler/Size4/Regular/DOSSIER-TRAPPED` and got the next clue
+them i typed `cd /usr/share/javascript/mathjax/jax/output/SVG/fonts/Latin-Modern/Fraktur/Regular`
+then i typed `ls` and
+then i typed `cat /usr/share/javascript/mathjax/jax/output/SVG/fonts/Latin-Modern/Fraktur/Regular/CUE`and got another clue
+then i typed `ls /usr/share/dwarves/runtime `
+then i typed ` cat /usr/share/dwarves/runtime/README-TRAPPED` and got another clue
+then i typed `cd /usr/local/lib/python3.8/dist-packages/json5/__pycache__`
+then i typed `cat /usr/local/lib/python3.8/dist-packages/json5/__pycache__/.REVELATION` and got another clue
+then i typed `ls`
+then i typed `cat /usr/share/racket/collects/ffi/MESSAGE` and got another clue
+then i typed ` ls /usr/share/X11/xkb/symbols/digital_vndr`
+then i typed `cat /usr/share/X11/xkb/symbols/digital_vndr/BLUEPRINT-TRAPPED` and then got another clue
+then i typed `ls /usr/local/lib/python3.8/dist-packages/pysmt/solvers/__pycache__` 
+then i typrd `cat /usr/local/lib/python3.8/dist-packages/pysmt/solvers/__pycache__/DISPATCH-TRAPPED`
+and got the flag `pwn.college{098Rhs_UV_ighhwhN7KRmlkO-uQ.dljM4QDL3kTN0czW}`
 
 ## bash
 `Connected!
@@ -74,7 +92,8 @@ bdd.cpython-38.pyc       interpolation.cpython-38.pyc  qelim.cpython-38.pyc
 btor.cpython-38.pyc      msat.cpython-38.pyc           smtlib.cpython-38.pyc
 cvcfive.cpython-38.pyc   options.cpython-38.pyc        solver.cpython-38.pyc
 hacker@commands~an-epic-filesystem-quest:/usr/share/racket/collects/ffi$ cat /usr/local/lib/python3.8/dist-packages/pysmt/solvers/__pycache__/DISPATCH-TRAPPED
-CONGRATULATIONS! Your perserverence has paid off, and you have found the flag!`
+CONGRATULATIONS! Your perserverence has paid off, and you have found the flag!
+pwn.college{098Rhs_UV_ighhwhN7KRmlkO-uQ.dljM4QDL3kTN0czW}`
 
 ## Reference
 did on my own
