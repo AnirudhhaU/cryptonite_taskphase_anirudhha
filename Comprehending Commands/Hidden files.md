@@ -3,10 +3,10 @@
 
 ## Procedure
 I started Hidden files and after connecting to pwn college through ssh
-Then i typed `ls`
-then to delete file i typed `rm delete_me`
-and the i typed `/challenge/check`
-and got the flag `pwn.college{gQWT6aAVhDngLkN39cNhJSmcZdu.dZTOwUDL3kTN0czW}`
+Then i typed `ls` and could not find flag
+Then i typed `ls -a` and
+then to find flag in file i typed `grep pwn.college .flag-253112264625024`
+and got the flag `wn.college{YfiqGxr_2ZHK29zHFWNDhf3RfQl.dBTN4QDL3kTN0czW}`
 
 ## bash
 `Connected!
