@@ -2,7 +2,8 @@
 
 ## procedure 
 I started Learning Complex Usage and after connecting to pwn college through ssh Then i typed `man man` and went through the manual and then used ` man -k`
-i went through the manualgot the flag pwn.college{MHI-KlI-NKDgWfjrZPrNhefisNP.dVjM5QDL3kTN0czW}
+and then used `/challenge/challenge --pvgyxq 061` 
+and got the flag pwn.college{MHI-KlI-NKDgWfjrZPrNhefisNP.dVjM5QDL3kTN0czW}
 
 
 
