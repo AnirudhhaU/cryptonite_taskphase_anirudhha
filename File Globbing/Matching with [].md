@@ -1,4 +1,12 @@
-Connected!
+# Matching with []
+
+## Procedure
+I started the challenge, and connected the terminal<br>
+and then i went into `cd /challenge/files` and then used `challenge/run file[bash]` and got 
+the flag, i pasted that into the flag box.
+
+## bash
+`Connected!
 hacker@globbing~matching-with-:~$ cd /
 hacker@globbing~matching-with-:/$ cd /challenge
 hacker@globbing~matching-with-:/challenge$ ls
@@ -15,4 +23,7 @@ hacker@globbing~matching-with-:/challenge/files$ cd file_[bash]
 ssh-entrypoint: cd: too many arguments
 hacker@globbing~matching-with-:/challenge/files$ /challenge/run file_[bash]
 You got it! Here is your flag!
-pwn.college{st6sI98QqmeLSm0b4srGxrBW5wp.dNjM4QDL3kTN0czW}
+pwn.college{st6sI98QqmeLSm0b4srGxrBW5wp.dNjM4QDL3kTN0czW}`
+
+## Reference
+Didnt use
