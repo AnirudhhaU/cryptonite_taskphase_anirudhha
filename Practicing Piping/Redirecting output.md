@@ -1,4 +1,4 @@
-# Matching with []
+# Redirecting output
 
 ## Procedure
 I started the challenge, and connected the terminal<br>
